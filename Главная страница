@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "style.css">
+        <title>
+            Таганрог - глазами студентов
+        </title>
+    </head>
+    <body>
+        <button  onclick="window.location.href = 'https://w3docs.com';" class = "head_button">Достопримечательности</button>
+        <button onclick="window.location.href = 'https://codeforces.com';" class = "head_button">Зоны отдыха</button>
+        <button onclick="window.location.href = 'https://codeforces.com';" class = "head_button">Для поступающих</button>
+        <button onclick="window.location.href = 'https://codeforces.com';" class = "head_button">Отзывы</button>
+</html>
