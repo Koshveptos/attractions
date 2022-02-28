@@ -1,10 +1,14 @@
+body{
+    background-color: #E5E5E5;
+}
+
 header {
-    text-align: justify;
-    letter-spacing: 1px;
-    height: 829px;
+    position: absolute;
     width: 1920px;
-    background-color: blueviolet;
-    
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: url(фото2.jpg);    
 }
 
 .head_button {
@@ -24,4 +28,60 @@ header {
 
   header nav {
     display: inline-block;
+}
+
+.head_title{
+    color: #fff;
+    font-size: xx-large;
+    padding: 163px;
+    margin-top: 79px;
+}
+
+.image_right{
+    float: right;
+    margin: 20px, 20px, 20px, 20px;
+    position: absolute;
+    width: 830px;
+    height: 460px;
+    left: 910px;
+    right: 120px;
+    top: 542px;
+}
+
+.text_first{
+    position: absolute;
+    width: 830px;
+    height: 440px;
+    left: 60px;
+    top: 520px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.image_left{
+    position: absolute;
+    width: 810px;
+    height: 537px;
+    left: 60px;
+    top: 1120px;
+}
+
+.second_text{
+    position: absolute;
+    width: 805px;
+    height: 537px;
+    left: 850px;
+    top: 1120px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #000000;
 }
