@@ -1,0 +1,27 @@
+header {
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 829px;
+    width: 1920px;
+    background-color: blueviolet;
+    
+}
+
+.head_button {
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+  }
+
+  header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+  header nav {
+    display: inline-block;
+}
